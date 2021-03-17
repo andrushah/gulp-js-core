@@ -1,0 +1,51 @@
+extends common/layout
+
+block content   
+  .game-block
+    ul#left.list
+      li.ars-1 1
+      li.ars-2 2
+      li.ars-3 3
+      li.ars-4 4
+      li.ars-5 5
+      li.ars-6 6
+      li.ars-7 7
+      li.ars-8 8
+      li.ars-9 9
+      li.ars-10 10
+      li.ars-11 11
+      li.ars-12 12
+      li.ars-13 13
+      li.ars-14 14
+      li.ars-15 15
+      li.ars-16 16
+    ul#right.list
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+      li
+  .modal-container
+    .d-flex
+      .modal
+        #success.message Woohoo, well done, you did it!
+        #haveTime.message
+          | You still have time, you sure? 
+          .timer 00:00
+        #lost.message It&apos;s a pity, but you lost
+        .controls
+          button#cancel Cancel
+          button#close Close
+          button#check Check
+
